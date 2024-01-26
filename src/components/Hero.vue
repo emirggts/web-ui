@@ -41,7 +41,7 @@
       <div class="max-w-lg">
         <h1 class="mb-5 text-5xl font-bold text-base-content">spotDL</h1>
         <p class="mb-5 text-base-content">
-          Download your Spotify songs with embedded album art and metadata
+          Spotify şarkılarınızı gömülü albüm kapağı ve meta verileriyle indirin.
         </p>
       </div>
 
@@ -62,8 +62,8 @@
             ></path>
           </svg> 
           <span
-            >NEW!: This interface now can download Song, Album, Artist and Playlist. <br />
-            <span v-if="version < '4.2.1'">This version is not compatible with lists, you need to download a new spotDL version</span>
+            >YENİ! Bu arayüz artık Şarkı, Albüm, Sanatçı ve Çalma Listesi indirebilir. <br />
+            <span v-if="version < '4.2.1'">Bu sürüm listelerle uyumlu değildir, yeni bir spotDL sürümü indirmeniz gerekebilir.</span>
           </span>
         </div>
       </div> 

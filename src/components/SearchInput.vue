@@ -38,12 +38,12 @@ export default {
     const dm = useDownloadManager()
 
     const placeHolderOptions = [
-      'All Eyes On Me - Bo Burnham',
+      'Blok3 - Patlat',
       'https://open.spotify.com/track/4vfN00PlILRXy5dcXHQE9M?si=e4d9e7c044dd4a8f',
-      'Lil Wayne',
-      'Drive - Miley Cyrus',
-      'Sofia - TMG',
-      'Lightning Crashes - Live',
+      'Uzi - Neyse',
+      'Bengü - Ağla Kalbim',
+      'Semicenk - Batık Gemi',
+      'Ezhel - Margiela',
     ]
 
     const placeHolder = ref(placeHolderOptions[0])

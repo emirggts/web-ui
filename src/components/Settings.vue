@@ -6,12 +6,12 @@
       <label for="my-modal" class="btn btn-sm btn-circle absolute right-2 top-2"
         >✕</label
       >
-      <h3 class="font-bold text-lg">Download Settings</h3>
+      <h3 class="font-bold text-lg">İndirme Ayarları</h3>
       <div class="flex flex-col justify-center my-4">
         <!-- audio_provider -->
         <div class="form-control w-full">
           <label class="label">
-            <span class="label-text">Audio Provider</span>
+            <span class="label-text">Ses Sağlayıcı</span>
           </label>
           <select
             class="select w-full"
@@ -29,7 +29,7 @@
         <!-- lyrics_provider -->
         <div class="form-control w-full">
           <label class="label">
-            <span class="label-text">Lyrics Provider</span>
+            <span class="label-text">Şarkı Sözü Sağlayıcı</span>
           </label>
           <select
             class="select w-full"
@@ -47,7 +47,7 @@
         <!-- format -->
         <div class="form-control w-full">
           <label class="label">
-            <span class="label-text">Output Format</span>
+            <span class="label-text">Dönüştürülen Biçim</span>
           </label>
           <select class="select w-full" v-model="sm.settings.value.format">
             <option
@@ -104,7 +104,7 @@
         </div>
       </div>
       <div class="modal-action">
-        <label class="btn" @click="sm.saveSettings()">Save</label>
+        <label class="btn" @click="sm.saveSettings()">Kaydet</label>
       </div>
     </div>
   </div>

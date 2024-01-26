@@ -3,10 +3,10 @@ import { ref, computed } from 'vue'
 import API from '/src/model/api'
 
 const STATUS = {
-  QUEUED: 'In Queue',
-  DOWNLOADING: 'Downloading...',
-  DOWNLOADED: 'Done',
-  ERROR: 'Error',
+  QUEUED: 'Sırada',
+  DOWNLOADING: 'İndiriliyor...',
+  DOWNLOADED: 'Tamamlandı',
+  ERROR: 'Hata',
 }
 
 const downloadQueue = ref([])
